@@ -1,0 +1,225 @@
+    1  ls
+    2  cd ~
+    3  ll
+    4  ll
+    5  cd /mygit
+    6  cd ~/mygit
+    7  git add 1.txt
+    8  touch 1.txt
+    9  ll
+   10  git add 1.txt
+   11  git status
+   12  touch 2.txt
+   13  ll
+   14  git config --global user.name 'user'
+   15  git config --l
+   16  git config --list
+   17  cd ~
+   18  ll
+   19  echo $?
+   20  git config --list
+   21  git config user.name --list
+   22  cd~
+   23  cd ~
+   24  ll
+   25  cd /mygit
+   26  cd mygit
+   27  ll
+   28  git init 
+   29  rm 1.txt 2.txt
+   30  ll
+   31  > new.file
+   32  ll
+   33  ll
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m 'first commit'
+   38  git status
+   39  ls
+   40  man ll
+   41  man git commit
+   42  git log
+   43  git log -p 
+   44  echo HELLO >new.file
+   45  git log -p 
+   46  git commit
+   47  git add
+   48  git add.
+   49  git add .
+   50  git log -p 
+   51  file new.file
+   52  ls new.file
+   53  git log -p -1
+   54  echo HELLO again >new.file
+   55  > 1.txt
+   56  ll
+   57  git log -p -1
+   58  git add 1.txt
+   59  git status
+   60  git diff
+   61  git log
+   62  touch 333
+   63  git add 333
+   64  git log
+   65  git status
+   66  git commit -a 'second commit'
+   67  git commit 'second commit'
+   68  git commit new.file
+   69  git commit new.file 'second commit'
+   70  git commit new.file "second commit"
+   71  git commit new.file -am "second commit"
+   72  git commit new.file -m "second commit"
+   73  git log
+   74  git reset HEAD~1
+   75  git log
+   76  git status
+   77  git commit new.file -m "second commit"
+   78  git log
+   79  git status
+   80  git revert HEAD~1
+   81  git status
+   82  git log
+   83  git revert 43947ad994bd2961bc90a1e59c2e5d00bf91921c
+   84  git status
+   85  git commit . -m "second commit"
+   86  rm ~/.ssh/id_rsa*
+   87  ssh-keygen
+   88  cat ~/ssh/id_rsa.pub
+   89  ls /help
+   90  ls --help
+   91  cat ~/ssh/id_rsa.pub
+   92  cat ~/.ssh/id_rsa.pub
+   93  history
+   94  history > history.txt
+   95  ll
+   96  git add "history.txt"
+   97  git status
+   98  git remote add origin https://github.com/kkarapull/test1.git
+   99  git push -u origin master
+  100  vim .git/config
+  101  git remote add origin git@https://github.com/kkarapull/mytelebot[A
+  102  history > history.txt
+  103  history.txt
+  104  $!
+  105  echo $!
+  106  history > history.txt
+  107  echo $!
+  108  echo $!
+  109  git status
+  110  git revert --abort
+  111  git status
+  112  git add --help
+  113  git add --
+  114  git add .
+  115  git status
+  116  history > history2.txt
+  117  git status
+  118  git add .
+  119  git status
+  120  git commit --help
+  121  git commit -m "commit with History file"
+  122  git status
+  123  git push
+  124  git status
+  125  cd ~
+  126  ll
+  127  clear
+  128  git remote add origin git@github.com:kkarapull/telebot.git
+  129  git remote add origin git@github.com:kkarapull/mytelebot.git
+  130  ssh-keygen
+  131  ssh-keygen
+  132  cat ~/ssh/id_rsa.pub
+  133  cat ~/.ssh/id_rsa.pub
+  134  git remote add origin git@github.com:kkarapull/mytelebot.git
+  135  git remote add origin git@github.com:kkarapull/test1.git
+  136  git remote add origin git@github.com:kkarapull/test2.git
+  137  ll
+  138  cd mygit
+  139  git remote add origin git@github.com:kkarapull/test2.git
+  140  git remote add origin git@github.com:kkarapull/mytelebot.git
+  141  git remote add origin git@github.com:kkarapull/test3.git
+  142  git remote add origin git@github.com:kkarapull/test1.git
+  143  git remote add origin git@github.com:kkarapull/testtest.git
+  144  exit
+  145  cd ~
+  146  git status
+  147  ll
+  148  cd /mygit
+  149  cd /mygit/
+  150  cd mygit/
+  151  git status
+  152  ll
+  153  vim history2.txt
+  154  git status
+  155  git add .
+  156  git status
+  157  git push -u origin master
+  158  git commit
+  159  git commit '4'
+  160  git commit -a '4'
+  161  git commit -a "4"
+  162  git commit -m "4"
+  163  git push -u origin master
+  164  git reset 60d37cdc29c7055e204af392c960a0bd5f126c1f
+  165  git status
+  166  git push -u origin master
+  167  git revert 60d37cdc29c7055e204af392c960a0bd5f126c1f
+  168  git push -u origin master
+  169  vim
+  170  vim
+  171  vi history
+  172  ll
+  173  vi history.txt
+  174  vi history.txt
+  175  vi history.txt
+  176  git checkout -b beta
+  177  git log
+  178  > beta.txt
+  179  ll
+  180  git status
+  181  git add -a
+  182  git add .
+  183  git status
+  184  vim beta.txt
+  185  git status
+  186  git checkout master
+  187  git status
+  188  git log
+  189  git checkout beta
+  190  git commit -m "first commit in beta branch"
+  191  git status
+  192  git add .
+  193  git status
+  194  git commit -m "first commit in beta branch"
+  195  git log
+  196  git checkout master
+  197  git log
+  198  git push -u origin master
+  199  git checkout beta
+  200  git push -u origin master
+  201  git push /?
+  202  man git push
+  203  /? git push
+  204  git push -u origin beta
+  205  history > history-beta.txt
+  206  git status
+  207  git add .
+  208  git status
+  209  git commit 
+  210  git status
+  211  git log
+  212  ll
+  213  cat 1.txt
+  214  cat beta.txt
+  215  less beta.txt
+  216  git checkout master
+  217  git merge beta
+  218  git status
+  219  git log
+  220  git push -u origin master
+  221  git remote
+  222  git push -u origin 
+  223  git push -u origin master
+  224  git checkout -b alpha
+  225  history > history-alpha
