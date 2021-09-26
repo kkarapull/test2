@@ -53,7 +53,7 @@
    53  git log -p -1
    54  echo HELLO again >new.file
    55  > 1.txt
-   56  ll
+   
    57  git log -p -1
    58  git add 1.txt
    59  git status
